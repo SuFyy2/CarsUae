@@ -1,0 +1,11 @@
+
+/* Override for the "Sell Your Car" button text to ensure better visibility */
+.nav-sell-button {
+  color: #000000 !important; /* Black text for better contrast */
+  font-weight: 600 !important; /* Make it bold for better visibility */
+}
+
+/* Fix for white buttons on colored backgrounds */
+.bg-white.text-white {
+  color: #000000 !important; /* Ensure black text on white buttons */
+}
